@@ -1,0 +1,57 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+chapters:
+- file: start_from_here
+- file: chp1_open_science_workflow/chp1.0_intro
+  sections:
+  - file: chp1_open_science_workflow/chp1.1.1_workflow
+  - file: chp1_open_science_workflow/chp1.1.2_tools
+  - file: chp1_open_science_workflow/chp1.2.1_bash
+  - file: chp1_open_science_workflow/chp1.2.2_common
+  - file: chp1_open_science_workflow/chp1.3_git
+  - file: chp1_open_science_workflow/chp1.4_jupyter
+- file: chp2_file_formats/chp2.0_intro
+  sections:
+  - file: chp2_file_formats/chp2.1_txt_csv
+  - file: chp2_file_formats/chp2.2_vector_data
+  - file: chp2_file_formats/chp2.3_raster_data
+  - file: chp2_file_formats/chp2.4_your_data
+- file: chp3_version_control/chp3.0_introduction
+  sections:
+  - file: chp3_version_control/chp3.1_get_files_from_github
+  - file: chp3_version_control/chp3.2_setup_git
+  - file: chp3_version_control/chp3.3_git_setup_and_commands
+  - file: chp3_version_control/chp3.4_team_work
+- file: chp4_intro_to_python/chp4.0_intro
+  sections:
+  - file: chp4_intro_to_python/chp4.1_about_python
+  - file: chp4_intro_to_python/chp4.2_python_variables
+  - file: chp4_intro_to_python/chp4.3_list_dict_tuble_set
+  - file: chp4_intro_to_python/chp4.4_python_operators
+  - file: chp4_intro_to_python/chp4.5_conditional_statements
+  - file: chp4_intro_to_python/chp4.6_loops
+  - file: chp4_intro_to_python/chp4.7_functions
+- file: chp5_python_data_science/chp5.0_intro
+  sections:
+  - file: chp5_python_data_science/chp5.1_numpy
+  - file: chp5_python_data_science/chp5.2_pandas
+  - file: chp5_python_data_science/chp5.3_matplotlib
+- file: chp6_deep_learning_review/chp6.0_intro
+  sections:
+  - file: chp6_deep_learning_review/chp6.1_common_nn
+  - file: chp6_deep_learning_review/chp6.2_hydro
+- file: chp7_intro_to_pytorch/chp7.0_intro
+  sections:
+  - file: chp7_intro_to_pytorch/chp7.1_tensor
+  - file: chp7_intro_to_pytorch/chp7.2_neural_network
+  - file: chp7_intro_to_pytorch/chp7.3_dataloader
+- file: chp8_lstm_camels/chp8.0_intro
+  sections:
+  - file: chp8_lstm_camels/chp8.1_run_in_jupyter
+  - file: chp8_lstm_camels/chp8.2_run_in_vscode
+- file: tldr
+- file: citations
+  
